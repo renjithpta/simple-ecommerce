@@ -1,0 +1,23 @@
+{
+  "name": "blockchain-node-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "build": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.2",
+    "@truffle/contract": "^4.4.1",
+    "@truffle/hdwallet-provider": "^2.0.13",
+    "dotenv": "^16.0.1",
+    "fs": "0.0.1-security",
+    "npm": "^8.17.0",
+    "web3": "^1.6.1"
+  }
+}
